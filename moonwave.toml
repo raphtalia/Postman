@@ -1,0 +1,15 @@
+# For when I actually write docs
+
+title = "Postman"
+
+gitRepoUrl = "https://github.com/raphtalia/Postman"
+gitSourceBranch = "main"
+
+classOrder = []
+
+[home]
+enabled = true
+includeReadme = true
+
+[footer]
+copyright = "Copyright © 2022 raphtalia"

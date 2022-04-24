@@ -1,0 +1,16 @@
+{
+  "name": "Postman - Dev",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+
+      "Packages": {
+        "$path": "Packages",
+
+        "Postman": { "$path": "." }
+      }
+    }
+  }
+}
