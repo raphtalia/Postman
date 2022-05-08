@@ -1,16 +1,32 @@
 {
-  "name": "Postman - Dev",
-  "tree": {
-    "$className": "DataModel",
+	"name": "Postman - Dev",
+	"tree": {
+		"$className": "DataModel",
 
-    "ReplicatedStorage": {
-      "$className": "ReplicatedStorage",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
 
-      "Packages": {
-        "$path": "Packages",
+			"Packages": {
+				"$path": "Packages",
 
-        "Postman": { "$path": "." }
-      }
-    }
-  }
+				"Postman": { "$path": "." }
+			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+
+			"Server": { "$path": "example/Server.server.lua" }
+		},
+
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+
+				"Client": { "$path": "example/Client.client.lua" }
+			}
+		}
+	}
 }

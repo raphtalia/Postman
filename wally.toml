@@ -2,8 +2,10 @@
 description = "Easy server-client communication"
 name = "raphtalia/postman"
 realm = "shared"
-registry = "https://github.com/UpliftGames/wally-index"
-version = "1.0.0"
+registry = "https://github.com/raphtalia/wally-local-index"
+version = "1.0.4"
 
 [dependencies]
+Promise = "evaera/promise@3.2.1"
+Signal = "sleitnick/signal@1.1.0"
 t = "osyrisrblx/t@3.0.0"

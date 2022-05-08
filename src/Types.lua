@@ -1,7 +1,6 @@
 local RunService = game:GetService("RunService")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local t = require(ReplicatedStorage.Packages.t)
+local t = require(script.Parent.Parent.t)
 
 local IS_SERVER = RunService:IsServer()
 

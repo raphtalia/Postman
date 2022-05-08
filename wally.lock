@@ -3,11 +3,21 @@
 registry = "test"
 
 [[package]]
+name = "evaera/promise"
+version = "3.2.1"
+dependencies = []
+
+[[package]]
 name = "osyrisrblx/t"
 version = "3.0.0"
 dependencies = []
 
 [[package]]
 name = "raphtalia/postman"
-version = "1.0.0"
-dependencies = [["t", "osyrisrblx/t@3.0.0"]]
+version = "1.0.2"
+dependencies = [["Promise", "evaera/promise@3.2.1"], ["Signal", "sleitnick/signal@1.2.0"], ["t", "osyrisrblx/t@3.0.0"]]
+
+[[package]]
+name = "sleitnick/signal"
+version = "1.2.0"
+dependencies = []
