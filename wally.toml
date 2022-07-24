@@ -1,8 +1,11 @@
 [package]
 description = "Easy server-client communication"
+exclude = ["*"]
+include = ["src", "src/*", "default.project.json", "wally.toml", "LICENSE"]
+license = "MIT"
 name = "raphtalia/postman"
 realm = "shared"
-registry = "https://github.com/raphtalia/wally-local-index"
+registry = "https://github.com/UpliftGames/wally-index"
 version = "1.0.4"
 
 [dependencies]
